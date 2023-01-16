@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Outfit';
+  font-weight: 300;
+  src: url('./public/fonts/outfit/Outfit-Light.ttf');
+}
+
+@font-face {
+  font-family: 'Outfit';
+  font-weight: 400;
+  src: url('./public/fonts/outfit/Outfit-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Outfit';
+  font-weight: 600;
+  src: url('./public/fonts/outfit/Outfit-SemiBold.ttf');
+}
+
+p {
+  @apply text-customSoftBlue text-[18px];
+}
+
+b {
+  @apply text-white font-semibold;
+}
