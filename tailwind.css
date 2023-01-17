@@ -27,3 +27,7 @@ p {
 b {
   @apply text-white font-semibold;
 }
+
+a {
+  @apply hover:text-customCyan transition-all;
+}
